@@ -1,0 +1,21 @@
+table{
+    height: 500px;
+    width:500px;
+}
+.grid{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(220, 220, 220, 0.678);
+
+    
+}
+
+.cell{
+    height: 40px;
+    width: 40px;
+    border: 1px;
+}
+
+.bomb{
+    background-color: maroon;
+}
