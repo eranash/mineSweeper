@@ -8,13 +8,28 @@
     <title>Eran's MineSweeper</title>
   </head>
   <body onload="init()">
-    <table>
-      <tbody class="grid">
-        <!-- <tr>
-            <td onclick="cellClicked(this)"></td>
-        </tr> -->
-      </tbody>
-    </table>
+
+    <div class="timer">000</div>
+    
+    <div class="levels">
+        <button onclick="changeLevel(this)">Beginner</button> 
+        <button onclick="changeLevel(this)">Medium</button> 
+        <button onclick="changeLevel(this)">Expert</button>
+        <button class="restart" onclick="restart()">Restart</button>
+    </div>
+
+    <div class="container">
+        <table>
+            <tbody class="board">
+              <!-- <tr>
+                  <td id="" class="" onclick="cellClicked(this)"></td>
+              </tr> -->
+            </tbody>
+         
+    </div>
+         </table>
+    
+   
 
     <script src="util.js"></script>
     <script src="app.js"></script>
